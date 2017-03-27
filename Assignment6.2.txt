@@ -1,0 +1,48 @@
+1. Why MapReduce program is needed in Pig Programming?
+
+As hadoop is a java based framework the pig queries we write are converted into mapreduce programs internally.
+Pig statements are like SQL queries which is needed to be converted to mapreduce jobs to be executed in hadoop.
+
+
+2. What are advantages of Pig over MapReduce?
+
+MapReduce are Java programs that must be in terms of mapper and reducer but Pig is like SQL Queries with simple syntax
+ which make them easier to think and write.
+The number of lines in a Pig Script is comparatively very much lesser than that of complex map reduce programs.
+
+
+3. What is Pig engine and what is its importance?
+
+Pig Engine is the execution environment in which Pig Latin are converted into mapreduce jobs for execution.
+
+
+4. What are the modes of Pig execution?
+
+Local mode: The pig script is executed in the local unix path. 
+The input file is in the Localfile system.
+
+MapReduce mode:The pig Script is executed in the Hadoop cluster.
+The input and output paths are the HDFS.
+
+5. What is Grunt Shell in Pig?
+
+It is a interactive shell in which we can execute the pig commands directly rather than as a Script file.
+
+6. What are the features of Pig Latin language?
+It is easier to write Pig Latin than writing complex mapreduce jobs.
+The Pig Latin is automatically converted to Mapreduce jobs by the execution engine.
+It has support to process huge amounts of data.
+It has many built-in operators and also supports the creation of user defined functions in other programming languages
+and invoke in pig scripts.
+
+
+7. Is Pig Latin commands case sensitive?
+
+The names of relations,fields and pig latin functions are case sensitive 
+while the names of parameters and all other pig latin keywords are case insensitive.
+
+8. What is a data flow language?
+
+A data flow language is one which can be represented as a directed graph with a
+specific flow of data through the programme thus implementing data flow priniciples and 
+architecture rules laid on them.
